@@ -1,0 +1,36 @@
+#div1{
+    display: inline-block;
+    width:40%;
+    height: 250px;
+    float:left;
+    font-family: Century Gothic;
+    font-size: 20px;
+}
+
+#div2{
+    display: inline-block;
+    width:40%;
+    height: 250px;
+    float:right;
+    font-family: Garamond;
+    font-size: 20px;
+}
+
+#div3{
+    display: inline-block;
+    width:40%;
+    height: 250px;
+    float:left;
+    font-family: Courier;
+    clear: both;
+    font-size: 20px;
+}
+
+#div4{
+    display: inline-block;
+    width:40%;
+    height: 250px;
+    float:right;
+    font-family: Century Gothic;
+    font-size: 20px;
+}

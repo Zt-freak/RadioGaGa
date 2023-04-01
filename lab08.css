@@ -1,0 +1,34 @@
+div{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    opacity:0.5;
+    text-align: center;
+    font-size: 1.7rem;
+    color:aliceblue;
+}
+.verticaal{
+    margin: 30px 20px 0 0;
+    transform: rotate(-0.5rad);
+    border-radius: 50%;
+}
+#een{
+    background-color: red;
+    z-index: 1;
+    position: fixed;
+}
+#twee{
+    background-color: green;
+    z-index: 2;
+    position: relative;
+    top:100px;
+    left:20px
+}
+#drie{
+    background-color: blue;
+    box-shadow: 10px 10px 10px #000;
+    z-index: 3;
+    position: relative;
+    top:-60px;
+    left:40px
+}

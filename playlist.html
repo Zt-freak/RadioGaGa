@@ -1,0 +1,235 @@
+<!-- website RadioGaGa -->
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="responsive.css">
+        <meta charset="UTF-8">
+        <meta name="robots" content="all">
+        <meta name="language" content="Dutch">
+        <meta name="author" content="Bryan Kho">
+        <meta name="description" content="RadioGaGa marketing">
+        <meta name="keywords" content="RadioGaGa, muziek, playlist">
+        <meta name="copyright" content="copyright">
+        <title>RadioGaGa</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="playlist.html">Playlist</a></li>
+            <li><a href="form.html">Formulier</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="logo">
+            <br />
+            <img width="500px" src="Fire_Emblem_logo.svg" alt="FIRE EMBLEM">
+        </div>
+        <main>
+            <div id="albums">
+                <ul>
+                    <li>
+                        <a onclick=
+                        "document.getElementById('album-1').style.display='inline';
+                        document.getElementById('album-2').style.display='none';
+                        document.getElementById('album-3').style.display='none';"
+                        >
+                        <img width= 200px height= 200px src="album-1.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick=
+                        "document.getElementById('album-1').style.display='none';
+                        document.getElementById('album-2').style.display='inline';
+                        document.getElementById('album-3').style.display='none';"
+                        >
+                        <img width= 200px height= 200px src="album-2.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick=
+                        "document.getElementById('album-1').style.display='none';
+                        document.getElementById('album-2').style.display='none';
+                        document.getElementById('album-3').style.display='inline';">
+                        <img width= 200px height= 200px src="album-3.jpg"
+                        >
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- einde albums -->
+            <div id="multimedia">
+                <div id="disc">
+                    <div id="center">
+                    </div>
+                </div>
+                <div id="album-1" style='display: block'>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Track</th>
+                                <th>Titel</th>
+                                <th>Tijd</th>
+                                <th>Play</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Main Theme</td>
+                                <td>01:55</td>
+                                <td>
+                                    <a onclick="
+                                    document.getElementById('audio').src='Main%20Theme%20-%20Fire%20Emblem%20Awakening.mp3';
+                                    v=document.getElementById('audio');
+                                    v.play();"><img width="20px" src="PlayButton.svg" alt="Play"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Assault</td>
+                                <td>01:56</td>
+                                <td>
+                                    <a onclick="
+                                    document.getElementById('audio').src='Assault%20-%20Fire%20Emblem%20Awakening.mp3';
+                                    v=document.getElementById('audio');
+                                    v.play();"><img width="20px" src="PlayButton.svg" alt="Play"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Id (Purpose)</td>
+                                <td>08:01</td>
+                                <td>
+                                    <a onclick="
+                                    document.getElementById('audio').src='Id (Purpose)%20-%20Fire%20Emblem%20Awakening.mp3';
+                                    v=document.getElementById('audio');
+                                    v.play();"><img width="20px" src="PlayButton.svg" alt="Play"></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- einde album 1 -->
+                <div id="album-2" style='display: none'>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Track</th>
+                                <th>Titel</th>
+                                <th>Tijd</th>
+                                <th>Play</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Alight (Storm)</td>
+                                <td>05:27</td>
+                                <td>
+                                    <a onclick="
+                                    document.getElementById('audio').src='Alight%20(Storm)%20-%20Fire%20Emblem%20Fates.mp3';
+                                    v=document.getElementById('audio');
+                                    v.play();"><img width="20px" src="PlayButton.svg" alt="Play"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Dusk Falls (Fire)</td>
+                                <td>05:11</td>
+                                <td>
+                                    <a onclick="
+                                    document.getElementById('audio').src='Dusk%20Falls%20(Fire)%20-%20Fire%20Emblem%20Fates.mp3';
+                                    v=document.getElementById('audio');
+                                    v.play();"><img width="20px" src="PlayButton.svg" alt="Play"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Road Taken</td>
+                                <td>05:30</td>
+                                <td>
+                                    <a onclick="
+                                    document.getElementById('audio').src='Road%20Taken%20-%20Fire%20Emblem%20Fates.mp3';
+                                    v=document.getElementById('audio');
+                                    v.play();"><img width="20px" src="PlayButton.svg" alt="Play"></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- einde album 2 -->
+                <div id="album-3" style='display: none'>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Track</th>
+                                <th>Titel</th>
+                                <th>Tijd</th>
+                                <th>Play</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Main Theme</td>
+                                <td>03:02</td>
+                                <td>
+                                    <a onclick="
+                                    document.getElementById('audio').src='Main%20Theme%20-%20Fire%20Emblem%20The%20Sacred%20Stones.mp3';
+                                    v=document.getElementById('audio');
+                                    v.play();"><img width="20px" src="PlayButton.svg" alt="Play"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ways Distant</td>
+                                <td>03:37</td>
+                                <td>
+                                    <a onclick="
+                                    document.getElementById('audio').src='Ways%20Distant%20-%20Fire%20Emblem%20The%20Sacred%20Stones.mp3';
+                                    v=document.getElementById('audio');
+                                    v.play();"><img width="20px" src="PlayButton.svg" alt="Play"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>The Shadow of the Enemy</td>
+                                <td>01:39</td>
+                                <td>
+                                    <a onclick="
+                                    document.getElementById('audio').src='The%20Shadow%20Of%20The%20Enemy%20-%20Fire%20Emblem%20The%20Sacred%20Stones.mp3';
+                                    v=document.getElementById('audio');
+                                    v.play();"><img width="20px" src="PlayButton.svg" alt="Play"></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- einde album 3 -->
+                <audio style="display: block" id="audio" src="Main%20Theme%20-%20Fire%20Emblem%20Awakening.mp3" controls>
+                </audio>
+            </div>
+            <!-- einde multimedia --> 
+            <div id="playlisttext">
+                Test
+            </div>
+            <div id="pager">
+                <div id="vorige">
+                    <a href="index.html"> &lt; </a>
+                </div>
+                <div id="volgende">
+                    <a href="form.html"> &gt; </a>
+                </div>
+            </div>
+            <br />
+        </main>
+        <footer>
+            <a href="#top"><img width="50px" src="Twitter.svg" alt="x"></a>
+            <a href="#top"><img width="50px" src="YouTube.svg" alt="x"></a>
+            <a href="#top"><img width="50px" src="Facebook.svg" alt="x"></a>
+                <p>Licensed under: Creative Commons 3.0 &copy;</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+/* Stijlen voor Labs */
+html{
+    height: 100%;
+    width: 100%;
+}
+#div1{
+    box-shadow: 4px 4px 10px rgba(0,0,0,5);
+    width: 80%;
+    height: 80px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: aquamarine;
+}
+#div2{
+    box-shadow: 4px 4px 10px rgba(0,0,0,5);
+    width: 80%;
+    height: 220px;
+    font-size: 15px;
+    font-family: Century Gothic;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    background-color: indianred;
+}
+#div3{
+    box-shadow: 4px 4px 10px rgba(0,0,0,5);
+    width: 80%;
+    font-family: Century Gothic;
+    margin-left: 3%;
+    background-color: bisque;
+}
+#div4{
+    box-shadow: 4px 4px 10px rgba(0,0,0,5);
+    width: 80%;
+    height: 100px;
+    font-family: Century Gothic;
+    margin-left: 0%;
+    background-color: mediumseagreen;
+}
+#div4 p{
+    position: relative;
+    top 50%;
+    transform: translateY(-50%);
+}
+#div2:hover,
+#div2:focus
+{
+    margin-left: 60%;
+}
